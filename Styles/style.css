@@ -73,7 +73,7 @@ header{
 .section_presentation{
     height: auto;
     width: auto;
-    background-image: url("/resources/images/main.png");
+    background-image: url("resources/images/main.png");
     background-size: cover;
     background-position: center;
     height: 770px;
