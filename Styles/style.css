@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('resources/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    src: url('/resources/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
   }
   
 
@@ -51,7 +51,7 @@ header{
     top: -25px;
     
 }
-.user_settings div:hover{
+.user_settings :hover{
     color: #FFFF00;
 }
 .user_settings img{
@@ -73,7 +73,7 @@ header{
 .section_presentation{
     height: auto;
     width: auto;
-    background-image: url("resources/images/main.png");
+    background-image: url("/resources/images/main.png");
     background-size: cover;
     background-position: center;
     height: 770px;
@@ -229,7 +229,7 @@ footer{
 .social_network{
     height: 97px;
     float: right;
-    align-items: center; /* Centra verticalmente los elementos */
+
  }
 .social_network p{
     border: 0px;
@@ -244,4 +244,26 @@ footer{
     display: inline-block;
     margin-top: 25px;
     margin-right: 25px;
+}
+.social_network :nth-child(n){
+    margin-right: 40px;
+}
+.social_network :nth-child(1){
+    position: relative;
+
+    top: -15px;
+}
+.social_network :nth-child(3){
+    position: relative;
+    top: -5px;
+}
+.social_network :nth-child(4){
+    position: relative;
+    top: -5px;
+}
+.footer_links ul li:hover{
+    color: #FFFF00;
+}
+.social_network p:hover{
+    color: #FFFF00;
 }
