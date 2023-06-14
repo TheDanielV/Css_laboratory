@@ -185,7 +185,7 @@ header{
     padding-top: 3%;
     padding-bottom: 4%;
 }
-.card_boxes{ display: inline-block;margin-left: 12%;vertical-align: top;}
+.card_boxes{ display: inline-block;margin-left: 8%;vertical-align: top;}
 
         /*Text benefit section*/
 .section_vip p{
@@ -194,6 +194,7 @@ header{
 }
         /*suscription Section, symbols*/
 .simbol_vip{
+    margin: 30px;
     width: 255px;
     height: 255px;
     border: #384001 15px solid;
@@ -208,6 +209,7 @@ header{
         /*Button section*/
 .card_boxes p{
     margin-top: 10px;
+
     font-family: 'Inter'; font-weight: 600;font-size: 32px;
 }
 .card_boxes nav{
