@@ -1,13 +1,16 @@
 *{
     padding: 0px;
     margin: 0px;
-    border: #000 1px solid;
 
 }
 
 @font-face {
     font-family: 'Inter';
     src: url('/resources/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Romanesco';
+    src: url('/resources/fonts/Romanesco/Romanesco-Regular.ttf') format('truetype');
   }
   
 
@@ -43,13 +46,13 @@ header{
 .user_settings{
     height: 70px;
     float: right;
+    font-family: 'Inter'; font-weight: 400;font-size: 14px;
 }
 .user_settings p{
 
     display: inline-block;
-    position: relative;
-    top: -25px;
-    
+    vertical-align: top;
+    margin-top: 25px;
 }
 .user_settings :hover{
     color: #FFFF00;
@@ -76,14 +79,24 @@ header{
     background-image: url("/resources/images/main.png");
     background-size: cover;
     background-position: center;
-    height: 770px;
+    height: 900px;
+
 }
 .section_presentation p{
+    display: inline-block;
+    float: left;
+    clear: both;
     position: relative;
     top: 200px;
     left: 200px;
 }
-/*services section*/
+.section_presentation :nth-child(1){
+    font-family: 'Romanesco'; font-weight: 400;font-size: 96px;
+}
+.section_presentation :nth-child(2){
+    font-family: 'Inter'; font-weight: 600;font-size: 32px;
+}
+/*service section*/
 
 .section_price{
     display: inline-block;
@@ -134,6 +147,33 @@ header{
 }
 
 /*Input section*/
+.section_input{
+     background: #F2F6F6;
+     height: 110px;
+     text-align: center;
+
+}
+.section_input span{
+    font-family: 'Inter'; font-weight: 400;font-size: 16px;
+    position: relative;
+    top: 30px;
+    margin: 20px;
+}
+.section_input input{
+    position: relative;
+    top: 30px;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+}
+.section_input :nth-child(4){
+    padding-left: 20px;
+    width: 170px;
+    padding-right: 0%;
+    font-family: 'Inter'; font-weight: 400;font-size: 16px;
+    color: #9E9A9A;
+}
+
 /*Vip secction*/
 .section_vip{
     height: 770px;
@@ -144,6 +184,8 @@ header{
     padding-top: 3%;
     padding-bottom: 4%;
 }
+.card_boxes{ display: inline-block;margin-left: 12%;vertical-align: top;}
+
         /*Text benefit section*/
 .section_vip p{
  text-align: center;
@@ -155,33 +197,31 @@ header{
     height: 255px;
     border: #384001 15px solid;
     background-color: #fff;
-    display: inline-block;
     border-radius: 200px;
-    margin-left: 12%;
 }
-
 
 .simbol_vip img{
     padding: 0px;
     margin: 24%;
 }
         /*Button section*/
-.simbol_vip p{
-    margin-top: 40px;
-
+.card_boxes p{
+    margin-top: 10px;
     font-family: 'Inter'; font-weight: 600;font-size: 32px;
 }
-.section_vip nav{
+.card_boxes nav{
     margin-top: 20%;
     margin-bottom: 10%;
     border-radius: 35px;
-    width: 255px;
+    margin-left: 15px;
+    width: 300px;
     height: 60px;
     background-color: #A3A656;
     color: #fff;
     font-family: 'Inter';font-size: 16px;
 
 }
+
 .button div{
     text-align: center;
     padding: 7%;
@@ -190,8 +230,8 @@ header{
     background: #384001;
 }
 
-.section_vip ul li{
-
+.card_boxes ul li{
+    margin-left: 75px;
     font-family: 'Inter'; font-weight: 400;font-size: 16px;
 }
 
@@ -238,7 +278,8 @@ footer{
     margin-bottom: 0px;
     margin-right: 0px;
     display: inline-block;
-    
+    vertical-align: top;
+    margin-top: 40px;
  }
  .social_network img{
     display: inline-block;
@@ -247,11 +288,6 @@ footer{
 }
 .social_network :nth-child(n){
     margin-right: 40px;
-}
-.social_network :nth-child(1){
-    position: relative;
-
-    top: -15px;
 }
 .social_network :nth-child(3){
     position: relative;
