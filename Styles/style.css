@@ -1,0 +1,247 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: #000 1px solid;
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/resources/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  }
+  
+
+/*Header secction*/
+header{
+    height: 70px;
+    background-color: #A3A656;
+}
+
+.main_menu{
+    margin-left: 70px;
+    margin-top: auto;
+    height: 70px;
+    float: left;
+}
+.main_menu ul{
+    list-style-type: none; text-align: center;
+    font-family: 'Inter';font-size: 16px;
+    text-transform: uppercase;
+}
+.main_menu ul li{
+    display: inline-block;
+    border: 0px;
+    padding: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+
+}
+.main_menu ul li:hover{
+    color: #FFFF00;
+}
+.user_settings{
+    height: 70px;
+    float: right;
+}
+.user_settings p{
+
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    
+}
+.user_settings div:hover{
+    color: #FFFF00;
+}
+.user_settings img{
+    margin: 10px;
+}
+.user_settings :nth-child(4){
+    position: relative;
+    top: -4px;
+
+}
+.user_settings :nth-child(5){
+    position: relative;
+    top: -15px;
+    left: -8px;
+}
+
+
+/*principal image*/
+.section_presentation{
+    height: auto;
+    width: auto;
+    background-image: url("/resources/images/main.png");
+    background-size: cover;
+    background-position: center;
+    height: 770px;
+}
+.section_presentation p{
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+/*services section*/
+
+.section_price{
+    display: inline-block;
+}
+.services:nth-child(1){
+ padding-left: 5%;
+}
+.services{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 134px;
+    padding: 0%;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+}
+    /*service Boxes config*/
+.services p{
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    font-family: 'Inter'; font-weight: 600;font-size: 32px;
+    background: #A3A656;
+    color: #fff;
+    padding: 5%;
+}
+.services span{
+    display: block;
+    font-family: 'Inter'; font-weight: 400;font-size: 16px;
+}
+.services div{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Inter'; font-weight: 600;font-size: 32px;
+}
+
+.services nav{
+    padding: 20px;
+    float: right;
+    display: inline-block;
+    background: #A3A656;
+    color: #fff;
+    border-radius: 35px;
+    width: 130px;
+    text-align: center;
+}
+.services nav:hover{
+    background: #384001;
+}
+
+/*Input section*/
+/*Vip secction*/
+.section_vip{
+    height: 770px;
+    background: #F2F6F6;
+
+}
+#headerVip{
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+        /*Text benefit section*/
+.section_vip p{
+ text-align: center;
+ font-family: 'Inter'; font-weight: 600;font-size: 32px;
+}
+        /*suscription Section, symbols*/
+.simbol_vip{
+    width: 255px;
+    height: 255px;
+    border: #384001 15px solid;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 200px;
+    margin-left: 12%;
+}
+
+
+.simbol_vip img{
+    padding: 0px;
+    margin: 24%;
+}
+        /*Button section*/
+.simbol_vip p{
+    margin-top: 40px;
+
+    font-family: 'Inter'; font-weight: 600;font-size: 32px;
+}
+.section_vip nav{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    border-radius: 35px;
+    width: 255px;
+    height: 60px;
+    background-color: #A3A656;
+    color: #fff;
+    font-family: 'Inter';font-size: 16px;
+
+}
+.button div{
+    text-align: center;
+    padding: 7%;
+}
+.button:hover{
+    background: #384001;
+}
+
+.section_vip ul li{
+
+    font-family: 'Inter'; font-weight: 400;font-size: 16px;
+}
+
+/*FOOTER secction*/
+footer{
+    background: #384001;
+
+    list-style-type: none; text-align: center;
+    font-family: 'Inter'; font-size: 16px;
+    color: #A3A656;
+    text-transform: uppercase;
+
+    height: 97px;
+}
+.footer_links{
+    border: 0px;
+    padding: 0px;
+    float: left;
+    margin-left: 70px;
+
+
+}
+.footer_links ul{
+
+    height: 97px;
+}
+.footer_links ul li{
+    display: inline-block;
+    border: 0px;
+    padding: 0px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-right: 38px;
+}
+.social_network{
+    height: 97px;
+    float: right;
+    align-items: center; /* Centra verticalmente los elementos */
+ }
+.social_network p{
+    border: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    
+ }
+ .social_network img{
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 25px;
+}
